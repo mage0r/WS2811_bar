@@ -24,7 +24,7 @@ This board was designed by John Spencer - john.spencer.9000@gmail.com - https://
 SPECIAL THANKS
 ------------
 To the creators and maintainers of the KiCAD open-source EDA suite.
-To the HackMelbourne (CCHS) community of Melbourne, Australia. Especially Lachlan Maher, and Bob Powers.
+To the HackMelbourne (CCHS, http://hackmelbourne.org) community of Melbourne, Australia. Especially Lachlan Maher, and Bob Powers.
 To all other open-source developers whose countless hours supported every other aspect of this design.
 Extra thanks to Bob because I copied his README.md almost verbatim...
 
