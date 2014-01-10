@@ -13,7 +13,7 @@ Depending on the WS2811 chip you use, you may end up with a GRB rather than a RG
 
 Improvements and changes cheerfully accepted.
 
-![WS2811_bar](https://raw2.github.com/mage0r/WS2811_bar/master/Photos/2014-01-04%2015.56.35.jpg "10 digit bar graph controlled by ws2811 chips"
+![WS2811_bar](https://raw2.github.com/mage0r/WS2811_bar/master/Photos/2014-01-04%2015.56.35.jpg "10 digit bar graph controlled by ws2811 chips")
 
 ![WS2811_bar](https://raw2.github.com/mage0r/WS2811_bar/master/Photos/2014-01-05%2021.15.20.jpg "10 and 15 digit bar graph controlled by ws2811 chips")
 
