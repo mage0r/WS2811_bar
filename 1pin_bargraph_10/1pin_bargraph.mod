@@ -1,0 +1,197 @@
+PCBNEW-LibModule-V1  15/12/2013 11:16:59 PM
+# encoding utf-8
+Units mm
+$INDEX
+15_PIN_BAR
+$EndINDEX
+$MODULE 15_PIN_BAR
+Po 0 0 0 15 52AD9DA1 00000000 F~
+Li 15_PIN_BAR
+Cd 14 pins DIL package, round pads
+Kw DIL
+Sc 0
+AR /52ADA731
+Op 0 0 0
+T0 0 -5 1.524 1.143 0 0.3048 N V 21 N "BAR1"
+T1 0 5 1.524 1.143 0 0.28575 N V 21 N "DOT-BAR10"
+DS 10 -10 -20 -10 0.15 21
+DS -20 -10 -20 10 0.15 21
+DS -20 10 10 10 0.15 21
+DS 10 -10 10 10 0.15 21
+DS -20 10 -20 -10 0.15 21
+$PAD
+Sh "11" C 1.5 1.5 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 8 "N-000002"
+Po 5 0
+$EndPAD
+$PAD
+Sh "12" C 1.5 1.5 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 12 "N-0000023"
+Po 2.5 0
+$EndPAD
+$PAD
+Sh "13" C 1.5 1.5 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 18 "N-000006"
+Po 0 0
+$EndPAD
+$PAD
+Sh "14" C 1.5 1.5 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 11 "N-0000022"
+Po -2.5 0
+$EndPAD
+$PAD
+Sh "15" C 1.5 1.5 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 10 "N-0000021"
+Po -5 0
+$EndPAD
+$PAD
+Sh "16" C 1.5 1.5 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 17 "N-000005"
+Po -7.5 0
+$EndPAD
+$PAD
+Sh "17" C 1.5 1.5 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 7 "N-0000019"
+Po -10 0
+$EndPAD
+$PAD
+Sh "18" C 1.5 1.5 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 19 "N-000007"
+Po -12.5 0
+$EndPAD
+$PAD
+Sh "19" C 1.5 1.5 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 16 "N-000004"
+Po -15 0
+$EndPAD
+$PAD
+Sh "1" R 1.5 1.5 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 1 "+5V"
+Po -17.5 -7.5
+$EndPAD
+$PAD
+Sh "2" C 1.5 1.5 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 1 "+5V"
+Po -15 -7.5
+$EndPAD
+$PAD
+Sh "3" C 1.5 1.5 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 1 "+5V"
+Po -12.5 -7.5
+$EndPAD
+$PAD
+Sh "4" C 1.5 1.5 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 1 "+5V"
+Po -10 -7.5
+$EndPAD
+$PAD
+Sh "5" C 1.5 1.5 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 1 "+5V"
+Po -7.5 -7.5
+$EndPAD
+$PAD
+Sh "6" C 1.5 1.5 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 1 "+5V"
+Po -5 -7.5
+$EndPAD
+$PAD
+Sh "7" C 1.5 1.5 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 1 "+5V"
+Po -2.5 -7.5
+$EndPAD
+$PAD
+Sh "8" C 1.5 1.5 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 1 "+5V"
+Po 0 -7.5
+$EndPAD
+$PAD
+Sh "9" C 1.5 1.5 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 1 "+5V"
+Po 2.5 -7.5
+$EndPAD
+$PAD
+Sh "10" C 1.5 1.5 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 1 "+5V"
+Po 5 -7.5
+$EndPAD
+$PAD
+Sh "20" C 1.5 1.5 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 3 "N-0000013"
+Po -17.5 0
+$EndPAD
+$PAD
+Sh "31" C 1.5 1.5 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 1 "+5V"
+Po 7.5 -7.5
+$EndPAD
+$PAD
+Sh "32" C 1.5 1.5 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 2 "GND"
+Po 7.5 -5
+$EndPAD
+$PAD
+Sh "33" C 1.5 1.5 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 4 "N-0000016"
+Po 7.5 7.5
+$EndPAD
+$PAD
+Sh "34" C 1.5 1.5 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 5 "N-0000017"
+Po 7.5 5
+$EndPAD
+$SHAPE3D
+Na "dil/dil_14.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE 15_PIN_BAR
+$EndLIBRARY

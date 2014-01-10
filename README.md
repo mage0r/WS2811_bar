@@ -1,0 +1,38 @@
+WS2811_bar
+=============
+
+This project is designed around using the popular WS2811 LED driver chip to control a 10 or 15 led bar graph using a single pin on the arduino.  This also means several bar graphs can be chained together or the bar graph can follow a sequence of WS2811 or WS2812 LED's.
+
+This project has three sections, a kicad circuit diagram, an arduino sketch using the neopixel library from adafruit and lastly a few photos of it in action.
+
+There are several disadvantages in using the ws2811 to drive chips in this way, chifely, each chip drives 3 seperate LED's, meaning if you want to iterate through them activating each one, you have to iterate not only through the "pixels" but also through the "colours".
+
+Also, as each chip drives 3 LED's and there are 10 LED's all up, there are two channels "spare", these are the last two of the last pixel.
+
+Depending on the WS2811 chip you use, you may end up with a GRB rather than a RGB.  Just because there wasn't enough confusion already...
+
+Improvements and changes cheerfully accepted.
+
+CREDITS
+------------
+This board was designed by John Spencer - john.spencer.9000@gmail.com - https://github.com/mage0r
+
+SPECIAL THANKS
+------------
+To the creators and maintainers of the KiCAD open-source EDA suite.
+To the HackMelbourne (CCHS) community of Melbourne, Australia. Especially Lachlan Maher, and Bob Powers.
+To all other open-source developers whose countless hours supported every other aspect of this design.
+Extra thanks to Bob because I copied his README.md almost verbatim...
+
+DISTRIBUTION
+------------
+The specific terms of distribution of this project are governed by the
+license referenced below. Please contact the copyright owner if you wish to modify the board for distribution. Please utilize this design for personal or research projects. Please acknowledge all contributors.
+
+LICENSE
+-------
+Licensed under the TAPR Open Hardware License (www.tapr.org/OHL).
+The "license" sub-folder also contains a copy of this license in plain text format.
+
+Copyright John Spencer 2013
+john.spencer.9000@gmail.com
