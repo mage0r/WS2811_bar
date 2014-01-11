@@ -1,11 +1,13 @@
 WS2811_bar
 =============
 
-This project is designed around using the popular WS2811 LED driver chip to control a 10 or 15 led bar graph using a single pin on the arduino.  This also means several bar graphs can be chained together or the bar graph can follow a sequence of WS2811 or WS2812 LED's.
+This project drives a LED bar graph using a single pin from your microcontroller.
 
-This project has three sections, a kicad circuit diagram, an arduino sketch using the neopixel library from adafruit and lastly a few photos of it in action.
+It is designed around using the popular WS2811 LED driver chip commonly used in the adafruit neopixels.  This also means several bar graphs can be chained together or the bar graph can follow a sequence of WS2811 or WS2812 LED's.
 
-There are several disadvantages in using the ws2811 to drive chips in this way, chifely, each chip drives 3 seperate LED's, meaning if you want to iterate through them activating each one, you have to iterate not only through the "pixels" but also through the "colours".
+There has three sections, a kicad circuit diagram, an arduino sketch using the neopixel library from adafruit and lastly a few photos of it in action.
+
+Of course, this is a hacky way to use these chips and there are several disadvantages.  Chifely, each chip drives 3 seperate LED's, meaning if you want to iterate through them activating each one, you have to iterate not only through the "pixels" but also through the "colours".
 
 Also, as each chip drives 3 LED's and there are 10 LED's all up, there are two channels "spare", these are the last two of the last pixel.
 
