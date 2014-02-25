@@ -19,7 +19,7 @@ Improvements and changes cheerfully accepted.
 
 ![WS2811_bar](https://raw2.github.com/mage0r/WS2811_bar/master/Photos/2014-01-05%2021.15.20.jpg "10 and 15 digit bar graph controlled by ws2811 chips")
 
-![WS2811_bar](https://www.youtube.com/watch?v=YOKhcFke9yQ)
+(https://www.youtube.com/watch?v=YOKhcFke9yQ)
 
 CREDITS
 ------------
